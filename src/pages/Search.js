@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
 
-const Top = () => {
+
+const Search = () => {
    return (
       <Layout>
-         toppage
+         Serach page
       </Layout>
    )
 }
 
-export default Top
-
+export default Search

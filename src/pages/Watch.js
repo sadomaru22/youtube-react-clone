@@ -1,13 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
 
-const Top = () => {
+const Watch = () => {
    return (
       <Layout>
-         toppage
+         Watch
       </Layout>
    )
 }
 
-export default Top
-
+export default Watch
