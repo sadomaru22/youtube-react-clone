@@ -4,9 +4,7 @@ import Top from './pages/Top'
 import Search from './pages/Search'
 import Watch from './pages/Watch'
 
-
-
-function App() {
+function App () {
   return (
     <Router>
       <Switch>
@@ -15,7 +13,7 @@ function App() {
         <Route exact path="/watch" component={Watch} />
       </Switch>
     </Router>
-  );
+  )
 }
 
-export default App;
+export default App

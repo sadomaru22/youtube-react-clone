@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import Style from './Header.module.scss'
 
 const Header = () => {
-   return (
+  return (
       <div className={Style.header}>
          <div className={Style.item}>
          <Link to="/">VideoTube</Link>
@@ -17,7 +17,7 @@ const Header = () => {
             </form>
          </div>
       </div>
-   )
+  )
 }
 
 export default Header
