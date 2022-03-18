@@ -5,6 +5,7 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import StoreProvider from './store/index'
 
+// StoreProviderで囲む
 ReactDOM.render(
   <React.StrictMode>
     <StoreProvider>
