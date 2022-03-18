@@ -34,3 +34,12 @@ export const fetchSelectedData = async (id) => {
     }
   })
 }
+// Watchページ用の、選択された動画の関連動画のデータ取得
+export const fetchRelatedData = async (id) => {
+  return await youtube.get('/search', {
+    params: {
+      ...params,
+      relatedToVideoId: id
+    }
+  })
+}
